@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.input-box {
+    border-radius: 30px;
+    background-color: #c4c4c4;
+    border: none;
+    padding: 10px 20px;
+    width: 550px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.send-button {
+    background-color: #444;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px 0;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.counter button {
+    background-color: #444;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.counter span {
+    font-size: 40px;
+    margin: 0 20px;
+}
+
+.color-section {
+    margin-top: 20px;
+}
+
+.color-section select, .color-section input {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+}
